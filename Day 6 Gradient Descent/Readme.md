@@ -119,8 +119,7 @@ Final Testing Error: 21.636235831554275
 ```
 
 ## Plot
-
-![SGD Error Convergence](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/sgd.py)
+![SGD Error Convergence](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/STOCHASTIC.png)
 
 The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
 
