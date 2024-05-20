@@ -58,3 +58,70 @@ Test Error: 21.636235831554275
 ![Estimated PI](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/GRADIENT.png)
 
 The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
+
+
+
+
+
+
+Here's a README.md template for your Python script that implements Stochastic Gradient Descent (SGD) for linear regression:
+
+---
+
+# Stochastic Gradient Descent (SGD) for Linear Regression
+
+This Python script demonstrates Stochastic Gradient Descent (SGD) for linear regression. It uses NumPy for computation, Matplotlib for visualization, and scikit-learn for data splitting.
+
+## Description
+
+The script performs Stochastic Gradient Descent to optimize the coefficients of a linear regression model. It splits the data into training and testing sets using scikit-learn's `train_test_split` function and then applies SGD to train the model on the training data. The performance of the model is evaluated on both the training and testing data.
+
+## Requirements
+
+- Python 3.x
+- NumPy
+- Matplotlib
+- scikit-learn
+
+You can install the required packages using pip:
+
+```bash
+pip install numpy matplotlib scikit-learn
+```
+
+## Usage
+
+1. Clone the repository or download the Python script.
+2. Make sure you have Python and the required packages installed.
+3. Run the script using Python:
+   ```bash
+   python stochastic_gradient_descent.py
+   ```
+
+## Function Description
+
+### `stochasticdescent(x, y) -> (list, list, list, list)`
+- `x`: Array of input features.
+- `y`: Array of target values.
+- Returns:
+  - `Gb0`: List of beta0 values during training.
+  - `Gb1`: List of beta1 values during training.
+  - `E`: List of errors at each epoch.
+  - `Epoch`: List of epoch numbers.
+
+## Example Output
+
+```
+Gradient Descent training: b0: -2.957921573122759 b1: 1.9973980756436498
+Final Training Error: 24.187102709780483
+Gradient Descent testing: b0: -2.903180256889467 b1: 1.9990876792635678
+Final Testing Error: 21.636235831554275
+```
+
+## Plot
+
+![SGD Error Convergence](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/sgd.py)
+
+The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
+
+
