@@ -1,5 +1,5 @@
 ## BUDDi.AI Internship May - June 2024
-the follwoing topics were covered 
+the follwing topics were covered and assignments were present in this repository
 #  B0 and  B1 estimation by exhaustive search 
 #  Monte claro estimation 
 # Random Sampler
