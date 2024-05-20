@@ -126,3 +126,67 @@ Final Testing Error: 21.636235831554275
 The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
 
 
+
+
+
+
+# Minibatch Gradient Descent for Linear Regression
+
+This Python script demonstrates minibatch gradient descent for linear regression. It uses NumPy for computation, Matplotlib for visualization, and scikit-learn for data splitting.
+
+## Description
+
+The script defines a function `minibatch_gradient_descent` that performs minibatch gradient descent to optimize the coefficients of a linear regression model. It splits the data into training and testing sets using scikit-learn's `train_test_split` function and then applies minibatch gradient descent to train the model on the training data. The performance of the model is evaluated on both the training and testing data.
+
+## Requirements
+
+- Python 3.x
+- NumPy
+- Matplotlib
+- scikit-learn
+
+You can install the required packages using pip:
+
+```bash
+pip install numpy matplotlib scikit-learn
+```
+
+## Usage
+
+1. Clone the repository or download the Python script.
+2. Make sure you have Python and the required packages installed.
+3. Run the script using Python:
+   ```bash
+   python minibatch_gradient_descent.py
+   ```
+
+## Function Description
+
+### `minibatch_gradient_descent(x, y, lr=0.01, tolerance=10e-6, num_minibatches=20) -> (float, float, list, list)`
+- `x`: Array of input features.
+- `y`: Array of target values.
+- `lr`: Learning rate for minibatch gradient descent (default is 0.01).
+- `tolerance`: Convergence tolerance for stopping criterion (default is 10e-6).
+- `num_minibatches`: Number of minibatches to split the data into (default is 20).
+- Returns:
+  - `b0`: Final coefficient for the intercept.
+  - `b1`: Final coefficient for the slope.
+  - `E`: List of errors at each epoch.
+  - `Epoch`: List of epoch numbers.
+
+## Example Output
+
+```
+Minibatch Gradient Descent: b0: -2.957921573122759 b1: 1.9973980756436498 Final Error: 24.187102709780483
+```
+
+## Plot
+
+![Minibatch Gradient Descent](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/minibATCH.png)
+
+![Minibatch Gradient Descent ](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/Screenshot%20from%202024-05-20%2014-56-46.png)
+
+
+The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
+
+
