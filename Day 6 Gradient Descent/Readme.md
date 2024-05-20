@@ -54,8 +54,8 @@ Test Error: 21.636235831554275
 ```
 
 ## Plot
+![Gradient descent](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/STOCHASTIC.png)
 
-![Estimated PI](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/GRADIENT.png)
 
 The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
 
@@ -117,9 +117,11 @@ Final Training Error: 24.187102709780483
 Gradient Descent testing: b0: -2.903180256889467 b1: 1.9990876792635678
 Final Testing Error: 21.636235831554275
 ```
-
 ## Plot
-![SGD Error Convergence](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/STOCHASTIC.png)
+
+![SGD](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%206%20Gradient%20Descent/GRADIENT.png)
+
+
 
 The plot shows the Mean Squared Error (MSE) with respect to the number of Epoch cycles for both training and testing data.
 
