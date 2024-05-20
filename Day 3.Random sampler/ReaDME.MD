@@ -61,6 +61,5 @@ The output may look like:
 - Ensure the probabilities in the PMF dictionary sum up to 1.
 - The function uses NumPy for generating random samples.
 
----
-
-This README provides an overview of the Monte Carlo sampling function, how to use it, function description, example usage, and expected output. Adjust the example output and description as needed based on your specific PMF and use case.
+## Output 
+![Estimated PI](https://github.com/sharavanask/BUDDI.ai/blob/main/Day%203.Random%20sampler/Screenshot%20from%202024-05-20%2010-19-48.png)
