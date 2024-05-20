@@ -148,7 +148,7 @@ Create a 3D surface plot using plot_trisurf to visualize the error as a function
 Set the labels for the axes and the title of the plot.
 Display the plot using plt.show().
 To run this script, make sure you have the necessary libraries installed and execute the script in your Python environment. The script will print the minimum error and the best parameters, and it will generate a 3D plot of the error surface.
-(1.png)
+Variation of B0 and B1 values(/1.png)
 
 
 
