@@ -1,7 +1,11 @@
-### BUDDi.AI Internship May - June 2024
+## BUDDi.AI Internship May - June 2024
 
 
-## Contents Covered During the session
+# Contents Covered During the session
+#
+#
+#
+
 #  B0 and  B1 estimation by exhaustive search 
 #  Monte claro estimation 
 # Random Sampler
