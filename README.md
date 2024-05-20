@@ -3,8 +3,6 @@
 
 # Contents Covered During the session
 #
-#
-#
 
 #  B0 and  B1 estimation by exhaustive search 
 #  Monte claro estimation 
