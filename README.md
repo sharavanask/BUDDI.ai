@@ -12,3 +12,4 @@
 # Normal distribution by mean and standard deviation 
 # Gradient Descent 
 # Regressor classifier 
+# Convolution
